@@ -1,8 +1,10 @@
+import Article from "./Section/Article/Article";
+
 const visitorRouters = [
     {
         path: "/Landing",
         name: "Landing",
-        component: null,
+        component: Article,
     },
     {
         path: "/ArticleDetails",
@@ -11,5 +13,4 @@ const visitorRouters = [
      },
 
 ];
-
-module.exports = { visitorRouters};
+export default  visitorRouters;

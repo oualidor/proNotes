@@ -3,7 +3,7 @@ import React from "react";
 
 import {Switch, Route, Redirect, BrowserRouter} from "react-router-dom";
 
-import {visitorRouters} from "./routes";
+import visitorRouters from "./routes";
 
 
 const switchRoutes = (
